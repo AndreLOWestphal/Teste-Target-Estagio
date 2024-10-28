@@ -1,0 +1,8 @@
+
+### 5) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada? 
+
+Para resolver o problema dos interruptores e identificar qual interruptor controla cada lâmpada, é possível adotar uma estratégia simples e eficaz. Comece ligando o primeiro interruptor e deixando-o ligado por alguns minutos para permitir que a lâmpada aqueça. Após esse tempo, desligue o primeiro interruptor e ligue o segundo. Em seguida, dirija-se à sala onde as lâmpadas estão localizadas.
+
+Ao chegar, será possível identificar a função de cada interruptor com base no estado das lâmpadas. A lâmpada que estiver acesa estará conectada ao segundo interruptor, que foi o último a ser acionado. A lâmpada que estiver apagada, mas ainda quente ao toque, estará conectada ao primeiro interruptor, pois este foi ligado e depois desligado. Finalmente, a lâmpada que estiver apagada e fria estará ligada ao terceiro interruptor, o qual não foi acionado em nenhum momento.
+
+Essa abordagem permite, com apenas uma visita à sala das lâmpadas, determinar com precisão qual interruptor controla cada uma delas.
